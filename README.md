@@ -3,7 +3,7 @@
 **動機與實作方式：**
 進行高中自主學習，以賽局理論為題之小論文時，因前端 Google 表單未嚴格限制輸入格式，收集之受測者數據（如班級座號、分配比例）格式不一，遂運用 Python Pandas 套件開發資料清理程式：讀取未格式化數據後，針對格式不一之欄位進行條件判斷與資料標準化，統一轉換為指定格式；另設計資料篩選機制，排除極端值後運算出符合特定條件（最高分前五名）之受測者名單，輸出為 TXT 檔，省去逐筆人工比對之步驟。
 
-延伸學習：[Data Export Practice：資料輸出格式實作](https://github.com/ymps44448888-crypto/python-notes)
+延伸學習：[Python Notes：DataCleaner延伸學習](https://github.com/ymps44448888-crypto/python-notes)
 
 **執行成果：**
 
